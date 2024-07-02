@@ -63,8 +63,8 @@ input:focus {
 }
 .temp {
   position: relative;
-  font-weight:300;
-  font-size:65px;
+  font-weight:400;
+  font-size:60px;
   color:#17223b ;        
   right: 110px;
 }
@@ -92,7 +92,7 @@ input:focus {
 @media (max-width: 480px) {
   /* Adjust styles for mobile devices */
   .card-container {
-    width: 80%; /* Example: Reduce card width */
+    width: 90%; /* Example: Reduce card width */
     height: auto; /* Example: Allow card to adjust height */
   }
 
@@ -100,20 +100,21 @@ input:focus {
     /* Use flexbox or grid for responsive positioning */
     /* Example: display: flex; justify-content: center; */
     position: relative;
-  width: 250px;
-  height: 500px;
-  bottom: 300px;
+  width: 200px;
+  height: 350px;
+  bottom: 200px;
   float:right;
-  margin: 5px 5px 0 0;
+  margin: 4px 4px 0 0;
   }
 
   .temp {
     font-size: 40px; /* Example: Reduce font size for temperature */
+    right: 75px;
   }
 }
 
 /* Target screens between 481px and 768px */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 368px) and (max-width: 620px) {
   /* Adjust styles for tablets */
   .card-container {
     width: 90%; /* Example: Adjust card width for tablets */
