@@ -10,7 +10,7 @@ function App() {
   const [unit, setUnit] = useState('C');
 
 
-  const initialUrl = `https://api.openweathermap.org/data/2.5/weather?q=${search}&lang=es&units=metric&appid=4aaa951b493bffaa18279c0b51d98025`
+  const initialUrl = `https://api.openweathermap.org/data/2.5/weather?q=${search}&lang=es&units=metric&appid=2fd2fc0b7030dbbb96469a82edf48061`
 
   const getData = useCallback(() => {
       fetch(initialUrl)
